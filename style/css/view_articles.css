@@ -1,0 +1,68 @@
+body {
+    padding: 3%;
+    background-image: url("");
+}
+
+#nav-left {
+    width: 20%;
+}
+
+.under_menuBar {
+    float: left;
+}
+
+#nav-right {
+    width: 30%;
+    float: right;
+}
+
+#pic {
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+#mainArea {
+    float: right;
+    width: 65%;
+    height: 50%
+}
+
+#docArea {
+    float: left;
+    margin-top: 20%;
+    height: 80%;
+    width: 30%;
+}
+
+.elenco {
+    border: solid 1px #A9A9A9;
+    border-radius: 5px;
+    overflow: auto;
+    width: 50%;
+}
+
+ul {
+    float: left;
+    padding: 3%;
+}
+
+#elenco_articoli {
+    height: 70%;
+}
+
+#elenco_annotazioni {
+    height: 70%;
+}
+
+.elenco ul {
+    list-style-type: none;
+}
+
+#scroll_article {
+    height: 100%;
+    border: solid 3px #A9A9A9;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 2%;
+}

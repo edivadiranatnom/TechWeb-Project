@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>User</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="dataset/img/rash.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css">
+    <link rel="stylesheet" href="style/css/user.css">
+    <link rel="stylesheet" href="dataset/css/bootstrap.min.css">
+    <script src="dataset/js/jquery.min.js"></script>
+    <script src="dataset/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.js"></script>
+    <link href="dataset/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="dataset/js/bootstrap-toggle.min.js"></script>
+    <script src="dataset/js/bootstrap-notify.js"></script>
+    <link rel="stylesheet" href="dataset/css/animate.css">
+    <style type="text/css">
+        body {
+            background-color: #eee
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        #pic {
+            margin: auto;
+            width: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pic">
+        <h2>Apertura di un paper nel container centrale</h2>
+        <p>Per aprire un documento nel container centrale, che sia un documento per cui l'utente è Reviewer o Author basta cliccare sul nome del paper nella sidebar di sinistra.</p>
+        <img src="style/screen/30.png">
+        <h2>Gestione annotazioni</h2>
+        <p>Per gestire le annotazioni o passare in modalità Annotator per poter annotare il paper è necessario cliccare sul pulsante Annotations nella navbar, il quale farà aprire una sidebar a destra coi bottoni necessari per la creazione e la gestione
+            delle annotazioni dell'utente.</p>
+        <img src="style/screen/3.png">
+        <h2>Passare in modalità Annotator</h2>
+        <p>Per passare in modalità Annotator cliccare sullo switch settato inizialmente in modalità Reader (verde) ad ogni caricamento di un nuovo paper.</p>
+        <p>Al passaggio in Annotator comprariranno due nuovi tasti. Il tasto "Manage Review" che permette allo user di modificare, eliminare e salvare le proprie annotazioni sul paper attuale e il tasto "Create Annotation" sotto al contenitore del paper.</p>
+        <img src="style/screen/4.png">
+        <h2>Creazione annotazioni</h2>
+        <p>Per creare una nuova annotazione selezionare un frammento di testo all'interno di un paragrafo e cliccare su "Creato annotation". In caso di selezione vuota o selezione non consentita appariranno due notifiche differenti.</p>
+        <img src="style/screen/6.png">
+        <p>A questo punto apparirà un dialogo modale con le info relative all'annotazione, un area in cui inserire il commento e tre tasti per le tre tipologie di annotazione differenti.</p>
+        <img src="style/screen/7.png">
+        <p>Al click su uno dei tasti delle tipologie di annotazione verrà creata l'annotazione sul documento.</p>
+        <img src="style/screen/8.png">
+        <p>Al click sull'annotazione apparirà un tooltip con i dati dell'annotazione. Sarà possibile chiudere il tooltip cliccando sulla X bianca.</p>
+        <img src="style/screen/10.png">
+        <h2>Filtrare le annotazioni</h2>
+        <p>Al click sui tasti della sidebar di destra per filtrare le annotazioni...</p>
+        <img src="style/screen/16.png">
+        <p>sarà possibile visualizzare solo un tipo di annotazioni alla volta.</p>
+        <img src="style/screen/18.png">
+        <p>Al click sul tasto reset sarà possibile visualizzare nuovamente tutte le annotazioni.</p>
+        <p>È inoltre possibile visualizzare tutti i frammenti annotati del paper, col tipo di annotazione, nel contenitore della sidebar di destra. <br>Cliccando sul frammento di testo colorato annotato apparirà il commento relativo.</p>
+        <img src="style/screen/20.png">
+        <h2>Gestione della Review</h2>
+        <p>Al click sul tasto "Manage Review" si aprirà un dialogo modale con le annotazioni dello user presenti sul documento per poterle modificare o eliminare. Nel caso in cui l'utente non abbia ancora annotato il documento questo dialogo modale apparirà
+            vuoto. Senza premere sul pulsante Save All, le annotazioni sul paper andranno perse quando verrà caricato un nuovo paper.
+        </p>
+        <img src="style/screen/21.png">
+        <p>Per modificare un commento inserire il testo nel campo relativo all'annotazione e cliccare su "Modifica".</p>
+        <img src="style/screen/24.png">
+        <p>Al click su "Delete" il commento verrà eliminato.</p>
+        <img src="style/screen/26.png">
+        <p>e non sarà più visibile nel documento.</p>
+        <img src="style/screen/27.png">
+        <p>Al click su "Save All" apparirà un dialogo modale che permetterà di salvare le annotazioni ed esprimere un giudizio sul paper. Se accettarlo o rifiutarlo. Al click su "Later" verranno salvate semplicemente le annotazioni senza esprimere un giudizio
+            sul paper.</p>
+        <p>Nel caso in cui venga espresso un giudizio sul paper dall'utente, la sidebar verrà chiusa e...</p>
+        <img src="style/screen/29.png">
+        <p>...spunterà una notifica che confermerà l'avvenuto giudizio e non sarà più possibile annotare il documento.</p>
+        <img src="style/screen/29_2.png">
+    </div>
+</body>
+
+</html>
